@@ -1,0 +1,98 @@
+@use 'src/styles/vars' as v;
+
+body{
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+#main-image
+{
+    height: 380px;
+    background: url('https://www.touristravacances.com/thumbnails/cache/media72/media/flxtarnos-la-foret-des-landes-piscine-pawlak.jpg') center;
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+
+.wrapperMid2
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 130px 10px;
+}
+h1{
+  text-align: center;
+  font-weight:normal;
+  background-color: rgb(255, 255, 255 , 0.8);
+  font-size: 55px;
+  padding: 40px 0 40px 0;
+  
+}
+
+
+.wrapperMid {
+  
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  display: block;
+  
+}
+
+.asideLeft {
+  float: left;
+  width: 35%;
+  margin-left: 100px;
+  
+}
+.asideRight {
+  float:right;
+  width: 45%;
+  margin-right: 100px;
+  
+}
+
+h2{
+  font-size: 25px;
+}
+
+p{
+  font-size: 25px;
+}
+
+a{
+  float: right;
+  font-size: 25px;
+  display: inline-block;
+  color: #6558F5;
+  font-weight: bold;
+}
+
+.prog_link{
+  border-bottom : 1px solid #6558F5;
+}
+
+.eventsOne {
+  margin-bottom: 2rem;
+  &__images {
+    width: 50%;
+    float:left;
+  }
+
+  &__text {
+    width: 50%;
+    float: right;
+    text-align: right;
+  }
+}
+.eventsTwo {
+  
+  float: right;
+  text-align: right;
+  &__images {
+    width: 50%;
+    float:left;
+  }
+}
